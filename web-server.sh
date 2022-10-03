@@ -9,6 +9,8 @@ fi
 apt-get install php libapache2-mod-php --assume-yes
 apt-get install php php7.4-mysqli --assume-yes
 
+/etc/init.d/apache2 restart
+
 rm -rf /var/www/html/index.html
 rm -rf /var/www/html/index.php
 
